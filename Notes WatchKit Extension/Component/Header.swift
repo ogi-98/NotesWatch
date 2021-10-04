@@ -21,7 +21,6 @@ struct Header: View {
                     .fontWeight(.semibold)
                     .foregroundColor(.accentColor)
             }
-            
             // SEPARATOR
             HStack {
                 Capsule()

@@ -11,6 +11,7 @@ struct ContentView: View {
     //MARK: - PROPERTY
     @State private var notes: [Note] = [Note]()
     @State private var text: String = ""
+    @AppStorage("lineCount") private var lineCount: Int = 1
     
     
     //MARK: - FUNCS
@@ -81,9 +82,6 @@ struct ContentView: View {
                 .fixedSize()
                 .buttonStyle(.plain)
                 .foregroundColor(.accentColor)
-//                .buttonStyle(.bordered)
-//                .tint(.accentColor)
-//                .buttonStyle(BorderedButtonStyle(tint: .accentColor))
 
             }//: HStack
             Spacer()
@@ -100,7 +98,7 @@ struct ContentView: View {
                                     .foregroundColor(.accentColor)
 
                                 Text(notes[i].text)
-                                    .lineLimit(1)
+                                    .lineLimit(lineCount)
                                     .padding(.leading, 5)
                             }
                         }//: HStack
@@ -121,7 +119,7 @@ struct ContentView: View {
             }//: List
         }//: VStack
         .navigationTitle("Notes")
-//        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             loadNotes()
         }

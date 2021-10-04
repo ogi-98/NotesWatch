@@ -11,6 +11,7 @@
 		B434759D270B599700E88127 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B434759C270B599700E88127 /* CreditsView.swift */; };
 		B43475A0270B5A5500E88127 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = B434759F270B5A5500E88127 /* Header.swift */; };
 		B43475A1270B5DF700E88127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4619275270B1EE7007AFBB2 /* Assets.xcassets */; };
+		B43475A3270B608C00E88127 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43475A2270B608C00E88127 /* SettingsView.swift */; };
 		B4619271270B1EE5007AFBB2 /* Notes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B4619270270B1EE5007AFBB2 /* Notes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B4619276270B1EE7007AFBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4619275270B1EE7007AFBB2 /* Assets.xcassets */; };
 		B461927C270B1EE7007AFBB2 /* Notes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B461927B270B1EE7007AFBB2 /* Notes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -68,6 +69,7 @@
 		B434759A270B520E00E88127 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B434759C270B599700E88127 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		B434759F270B5A5500E88127 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		B43475A2270B608C00E88127 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B461926C270B1EE5007AFBB2 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4619270270B1EE5007AFBB2 /* Notes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4619275270B1EE7007AFBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				B4619280270B1EE7007AFBB2 /* ContentView.swift */,
 				B434759A270B520E00E88127 /* DetailView.swift */,
 				B434759C270B599700E88127 /* CreditsView.swift */,
+				B43475A2270B608C00E88127 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4619281270B1EE7007AFBB2 /* ContentView.swift in Sources */,
+				B43475A3270B608C00E88127 /* SettingsView.swift in Sources */,
 				B4619283270B1EE7007AFBB2 /* NotesApp.swift in Sources */,
 				B4619285270B1EE7007AFBB2 /* ComplicationController.swift in Sources */,
 				B43475A0270B5A5500E88127 /* Header.swift in Sources */,
