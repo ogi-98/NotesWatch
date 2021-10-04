@@ -38,7 +38,9 @@ struct SettingsView: View {
             
             
         }//: VStack
-        
+        .onAppear {
+            value = Float(lineCount)
+        }
     }
 }
 
