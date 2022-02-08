@@ -5,7 +5,7 @@ Apple Watch Basic Notes App.
 
 ## Main Features
 
-- This app is notes app for apple watch developed with SwiftUI 2.0 .
+- Notes app for apple watch developed with SwiftUI 2.0 .
 - In this application, you can write the note with the keyboard or you can write the not via voice.
 - This app, permanently save notes and store data on the Watch. 
 - Multiple views and navigate between these views. 
